@@ -6,6 +6,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import ReducerHookExample from "./components/ReducerHookExample.tsx";
 import Home from "./components/Home.tsx";
 import EffectHookExample from "./components/EffectHookExample.tsx";
+import CompoundComponent from "./components/CompoundComponent.tsx";
 
 const router = createBrowserRouter([
   {
@@ -15,6 +16,7 @@ const router = createBrowserRouter([
       { path: "/", element: <Home /> },
       { path: "/use-reducer", element: <ReducerHookExample /> },
       { path: "/use-effect", element: <EffectHookExample /> },
+      { path: "/compound-component", element: <CompoundComponent /> },
     ],
   },
 ]);

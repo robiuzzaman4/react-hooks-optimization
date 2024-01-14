@@ -5,6 +5,7 @@ const Navigators: React.FC = () => {
   const navigators = [
     { id: 1, title: "useReducer Hook", url: "use-reducer" },
     { id: 2, title: "useEffect Hook", url: "use-effect" },
+    { id: 3, title: "compound Component", url: "compound-component" },
   ];
   return (
     <div className="w-full grid">
